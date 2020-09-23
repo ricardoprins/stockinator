@@ -1,2 +1,2 @@
-# stockinator
+# Stockinator
 Stock Market Analysis Platform
