@@ -1,0 +1,31 @@
+name: Stockinator - DB webapp deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Set up Python version
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.8'
+
+    - name: Build using AppService-Build
+      uses: azure/appservice-build@v2
+      with:
+        platform: python
+        platform-version: '3.8'
+
+    - name: 'Deploy to Azure Web App'
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'stockinator'
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4a62717009664e6e8c11f6ac62b8cbde }}
