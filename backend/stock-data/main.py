@@ -1,8 +1,4 @@
-from os import close
-from typing import Optional
 from fastapi import FastAPI
-from datetime import date
-from pydantic import BaseModel
 import json
 import yfinance as yf
 
