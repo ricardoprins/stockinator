@@ -18,4 +18,16 @@ const firebaseConfig={
 }
 
 firebase.initializeApp(firebaseConfig);
+firebase.addUser();
 
+//add user
+function addUser(){
+const database = firebase.database();
+const createUser = user => database.ref().child(`User/${user.uid}`).set(user);
+exports.createUser = functions.auth.user().onCreate(createUser);
+}
+
+//delete user
+//connect user
+//update password
+//stock info per user
