@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stockinator</title>
+  <meta charset="utf-8">
+  <title>Stockinator</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Stockinator</h1>
-    <script src="stockdata.js"></script>
-    <script src="display.js"></script>
+
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <img src="img/logo.png" alt="" title="" /></img>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Microsoft</h2>
+            <div class="the-price" id="price"> </div>
+              <script>
+                fetch('https://stockinator-data.herokuapp.com/stock/MSFT').then(function(response){
+                  return response.json();
+                }).then(function(obj){
+                  console.log(obj);
+                  newPrice(obj);
+                }).catch(function(error){
+                  console.error('Something went wrong');
+                  console.error(error);
+                });
+
+                function newPrice(arr){
+                  currentPrice = arr["open"];
+                  highPrice = arr["high"];
+                  lowPrice = arr["low"];
+                  volumePrice = arr["volume"];
+                  var history = document.getElementById("priceHistory");
+                  document.getElementById("price").innerHTML = ("OPEN = "+currentPrice+" HIGH ="+highPrice+" LOW ="+lowPrice+" VOLUME ="+volumePrice);
+                }
+
+              </script>
+        </div>
+      </div>
 </body>
 </html>

@@ -9,4 +9,13 @@ class stockData {
         // Returning JSON stock data
         return resData;
     }
+
+    async newPrice(map) {
+        currentPrice = arr["open"];
+        highPrice = arr["high"];
+        lowPrice = arr["low"];
+        volumePrice = arr["volume"];
+        var history = document.getElementById("priceHistory");
+        document.getElementById("price").innerHTML = ("OPEN = "+currentPrice+" HIGH ="+highPrice+" LOW ="+lowPrice+" VOLUME ="+volumePrice);
+    }
 }
