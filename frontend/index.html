@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stockinator</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <title>Stockinator</title>
 </head>
+
 <body>
-    
+  <h2>Microsoft</h2>
+  <p id="date"></p>
+  <p id="price"> </p>
+  
+  <script>
+    var today = new Date();
+    var day = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    document.getElementById("date").innerHTML = day;
+  </script>
+  <script src="stockdata.js"></script>
 </body>
+
 </html>

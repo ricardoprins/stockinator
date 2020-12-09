@@ -16,7 +16,7 @@ async def get_stock_data(ticker: str):
     mkforwardPE = ticker_data["forwardPE"]
     mkforwardEps = ticker_data["forwardEps"]  
     return {"open": mktopen, "high": mkthigh, "low": mktlow, "volume": mktvolume, "forwardPE" : mkforwardPE, "forwardEps" : mkforwardEps}
- 
+
 
 @app.get("/stock/historic/{ticker}")
 async def get_historical_data(ticker: str, tperiod: str = "1mo"):

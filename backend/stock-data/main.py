@@ -22,4 +22,3 @@ async def get_historical_data(ticker: str, tperiod: str = "1mo"):
     ticker_data = yf.Ticker(ticker).history(period=tperiod)
     return json.loads(ticker_data.to_json(orient="index", date_format="iso"))
 
-    
