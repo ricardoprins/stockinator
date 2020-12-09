@@ -1,13 +1,3 @@
-//const functions = require('firebase-functions');
-
-//Create and Deploy Your First Cloud Functions
- //https://firebase.google.com/docs/functions/write-firebase-functions
-
-//exports.helloWorld = functions.https.onRequest((request, response) => {
-  //functions.logger.info("Hello logs!", {structuredData: true});
- /// response.send("Hello from Firebase!");
-// });
-
 var firebase = require("firebase");
 
 const firebaseConfig = {
@@ -23,29 +13,9 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 firebase.addUser();
-
-//add user
-function addUser(){
-const database = firebase.database();
-const createUser = user => database.ref().child(`User/${user.uid}`).set(user);
-exports.createUser = functions.auth.user().onCreate(createUser);
-}
-
-<<<<<<< Updated upstream
-//delete user
-//connect user
-//update password
-//stock info per user
-=======
-
-firebase.addUser();
-
 firebase.deleteUser();
-
 firebase.savedState();
-
 firebase.logIn();
-
 firebase.updateName();
 firebase.updatePassword();
 
@@ -144,4 +114,3 @@ user.updatePassword(newPassword).then(function() {
   // An error happened.
 });
 }
->>>>>>> Stashed changes

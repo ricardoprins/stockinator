@@ -1,0 +1,4 @@
+fastapi>=0.61.1
+yfinance>=0.1.55
+uvicorn>=0.11.8
+gunicorn>=20.0.4
