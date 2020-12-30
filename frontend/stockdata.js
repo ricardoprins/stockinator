@@ -13,6 +13,10 @@ fetch('https://stockinator-data.herokuapp.com/stock/MSFT').then(function(respons
                   highPrice = arr["high"];
                   lowPrice = arr["low"];
                   volumePrice = arr["volume"];
+                  mktPrice = arr["price"];
+                  prevClose = arr["prevclose"];
+                  forwardPE = arr["forwardPE"];
                   var history = document.getElementById("priceHistory");
-                  document.getElementById("price").innerHTML = ("OPEN = "+currentPrice+" HIGH ="+highPrice+" LOW ="+lowPrice+" VOLUME ="+volumePrice);
+                  document.getElementById("price").innerHTML = (
+                    "OPEN = "+currentPrice+" <br> HIGH ="+highPrice+" <br> LOW ="+lowPrice+" <br> VOLUME ="+volumePrice );
                 }

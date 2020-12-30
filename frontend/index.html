@@ -7,16 +7,8 @@
 </head>
 
 <body>
-  <h2>Microsoft</h2>
-  <p id="date"></p>
-  <p id="price"> </p>
-  
-  <script>
-    var today = new Date();
-    var day = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    document.getElementById("date").innerHTML = day;
-  </script>
-  <script src="stockdata.js"></script>
+  <div id='root'></div>
+  <script src="./build/js/app.js"></script>
 </body>
 
 </html>
