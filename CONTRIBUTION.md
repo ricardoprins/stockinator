@@ -18,7 +18,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the Existing [Issues](https://github.com/Femme-js/Hoaxify/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/ricardoprins/stockinator/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Read the [Code of Conduct](https://github.com/ricardoprins/stockinator/blob/master/CODE_OF_CONDUCT.md)
@@ -29,8 +29,8 @@ Refer to the following articles on the basics of Git and Github and can also con
 
 ## ⭐HOW TO MAKE A PULL REQUEST:
 
-**1.** Fork [this](https://github.com/Femme-js/Hoaxify) repository.
-Click on the <a href="https://github.com/Femme-js/Hoaxify"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+**1.** Fork [this](ricardoprins) repository.
+Click on the <a href="https://github.com/ricardoprins/stockinator"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository. Open terminal and type:
 
