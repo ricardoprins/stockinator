@@ -12,5 +12,7 @@ Stockinator is currently working using a Electron/React frontend that pulls data
 
 This project is now a part of the DevScript Winter of Code 2020, and it is open for contributions!
 
+## 💥 How to Contribute ?
+- If you wish to contribute kindly check the [CONTRIBUTION.md](https://github.com/ricardoprins/stockinator/blob/master/CONTRIBUTION.md)🤝
 ## Contact info
 Feel free to reach out for suggestions and contributions! If you want to talk to me, don't hesitate to reach out: ricardoprins@gmail.com
