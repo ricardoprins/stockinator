@@ -1,6 +1,6 @@
 ---
 name: 💥 Proposal
-about: Propose a non-trivial change to socli
+about: Propose a non-trivial change to Stockinator
 labels: "proposal"
 ---
 
