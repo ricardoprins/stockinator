@@ -27,3 +27,6 @@ Checkout the contributors [here](https://github.com/ricardoprins/stockinator/blo
 - Also checkout the code of conduct [CODE_OF_CONDUCT.md](https://github.com/ricardoprins/stockinator/blob/master/CODE_OF_CONDUCT.md).🤝
 ## Contact info 📞
 Feel free to reach out for suggestions and contributions! If you want to talk to me, don't hesitate to reach out: ricardoprins@gmail.com
+
+## Discord server
+For easier interaction with all the developers involved in the project, [join us at our Discord server!](https://discord.gg/8qKxzHgP7C)
