@@ -2,7 +2,7 @@
 <h1 align = "center" >Stockinator </h1>
 <h4 align = "center" >A Multiplatform Stock Market Analysis Platform! </h4>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 [![Stargazers](https://img.shields.io/github/stars/ricardoprins/stockinator?style=for-the-badge)](https://github.com//ricardoprins/stockinator/stargazers)
 [![Issues](https://img.shields.io/github/issues/ricardoprins/stockinator?style=for-the-badge)](https://github.com/ricardoprins/stockinator/issues)
 [![Contributors](https://img.shields.io/github/contributors/ricardoprins/stockinator?style=for-the-badge)](https://img.shields.io/github/contributors/ricardoprins/stockinator)
