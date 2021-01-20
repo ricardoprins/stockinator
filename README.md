@@ -2,6 +2,13 @@
 <img src="https://media.giphy.com/media/1AjFk7MzJBT2UPYKLB/giphy.gif" width="60%"><br>
 A Multiplatform Stock Market Analysis Platform!
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Stargazers](https://img.shields.io/github/stars/ricardoprins/stockinator?style=for-the-badge)](https://github.com//ricardoprins/stockinator/stargazers)
+[![Issues](https://img.shields.io/github/issues/ricardoprins/stockinator?style=for-the-badge)](https://github.com/ricardoprins/stockinator/issues)
+[![Contributors](https://img.shields.io/github/contributors/ricardoprins/stockinator?style=for-the-badge)](https://img.shields.io/github/contributors/ricardoprins/stockinator)
+[![Forks](https://img.shields.io/github/forks/ricardoprins/stockinator?style=for-the-badge)](https://github.com//ricardoprins/stockinator/network/members)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/ricardoprins/stockinator/issues)
+
 ## Story and Concept 🖋
 The Stockinator project began as a result of a Project Mgmt class - initially designed to be a desktop application to function as a stock screening tool, it has now expanded to possibly implement a web app with the same purpose.
 
