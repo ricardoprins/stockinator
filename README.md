@@ -1,5 +1,5 @@
-# Stockinator ✨
 <p align=center>
+# Stockinator ✨
 <img src="https://media.giphy.com/media/1AjFk7MzJBT2UPYKLB/giphy.gif" width="60%"><br>
 A Multiplatform Stock Market Analysis Platform!
 </p>
