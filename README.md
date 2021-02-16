@@ -1,6 +1,8 @@
 # Stockinator ✨
+<p align=center>
 <img src="https://media.giphy.com/media/1AjFk7MzJBT2UPYKLB/giphy.gif" width="60%"><br>
 A Multiplatform Stock Market Analysis Platform!
+</p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Stargazers](https://img.shields.io/github/stars/ricardoprins/stockinator?style=for-the-badge)](https://github.com//ricardoprins/stockinator/stargazers)
@@ -17,6 +19,17 @@ A stock screener is a tool designed to screen for stocks using any parameters yo
 
 ## Project Details 📕
 Stockinator is currently working using a Electron/React frontend that pulls data from a simple backend designed using Python/FastAPI and that is currently hosted in [Heroku](https://stockinator-data.herokuapp.com/stock/MSFT). The choice for a JavaScript framework was to allow easy migration for both mobile and web environments.
+
+## 💥 How to Contribute ? 
+<img src="https://media.giphy.com/media/XruiX7uNiRE4CvFZEs/giphy.gif" width="50%"><br>
+- If you wish to contribute kindly check the [CONTRIBUTION.md](https://github.com/ricardoprins/stockinator/blob/master/CONTRIBUTION.md)🤝
+- Also checkout the code of conduct [CODE_OF_CONDUCT.md](https://github.com/ricardoprins/stockinator/blob/master/CODE_OF_CONDUCT.md).🤝
+
+## Contact info 📞
+Feel free to reach out for suggestions and contributions! If you want to talk to me, don't hesitate to reach out: ricardoprins@gmail.com
+
+## Discord server
+For easier interaction with all the developers involved in the project, [join us at our Discord server!](https://discord.gg/8qKxzHgP7C)
 
 ## Open-source Programs 👾
 Winter of Code is an open-source program envisioned by DevScript that helps understand the paradigm of Open Source contribution. It aims to bring students into the world of open source development and see the power of unified problem solving in real time.
@@ -106,14 +119,3 @@ Thanks goes to these wonderful people ✨✨:
 </table>
 
 Checkout the contributors [here](https://github.com/ricardoprins/stockinator/blob/master/CONTRIBUTORS.md)
-
-
-## 💥 How to Contribute ? 
-<img src="https://media.giphy.com/media/XruiX7uNiRE4CvFZEs/giphy.gif" width="50%"><br>
-- If you wish to contribute kindly check the [CONTRIBUTION.md](https://github.com/ricardoprins/stockinator/blob/master/CONTRIBUTION.md)🤝
-- Also checkout the code of conduct [CODE_OF_CONDUCT.md](https://github.com/ricardoprins/stockinator/blob/master/CODE_OF_CONDUCT.md).🤝
-## Contact info 📞
-Feel free to reach out for suggestions and contributions! If you want to talk to me, don't hesitate to reach out: ricardoprins@gmail.com
-
-## Discord server
-For easier interaction with all the developers involved in the project, [join us at our Discord server!](https://discord.gg/8qKxzHgP7C)
