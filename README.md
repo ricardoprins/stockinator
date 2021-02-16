@@ -1,5 +1,5 @@
-<p align=center>
-# Stockinator ✨
+<h1 align="center"> Stockinator ✨</h1>
+<p align="center">
 <img src="https://media.giphy.com/media/1AjFk7MzJBT2UPYKLB/giphy.gif" width="60%"><br>
 A Multiplatform Stock Market Analysis Platform!
 </p>
@@ -39,7 +39,7 @@ Winter of Code is an open-source program envisioned by DevScript that helps unde
 ## Our Contributors 👩🏻‍🤝‍🧑🏼
 
 Thanks goes to these wonderful people ✨✨:
-<table>
+<table
 	<tr>
 		<td align="center">
 			<a href="https://github.com/ricardoprins">
