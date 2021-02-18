@@ -1,9 +1,9 @@
-from fastapi import FastAPI
-import json
-import yfinance as yf
-import pandas as pd
 import datetime
+import json
 
+import pandas as pd
+import yfinance as yf
+from fastapi import FastAPI
 
 app = FastAPI()
 
