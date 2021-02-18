@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stockinator.App">
+    <Application.Resources>
+        <!--  Colors  -->
+        <Color x:Key="DropDownColor2">#36476a</Color>
+        <Color x:Key="DropDownColor1">#41557e</Color>
+        <Color x:Key="NavigationBarColor">#f5775b</Color>
+        <Color x:Key="PageBackgroundColor">#3b4d72</Color>
+        <Color x:Key="CellBackgroundColor">#405175</Color>
+        <Color x:Key="MainTextColor">#FFFFFF</Color>
+        <Color x:Key="YouTextColor">#B9B7C3</Color>
+        <Color x:Key="LocationTextColor">#818BA1</Color>
+    </Application.Resources>
+</Application>

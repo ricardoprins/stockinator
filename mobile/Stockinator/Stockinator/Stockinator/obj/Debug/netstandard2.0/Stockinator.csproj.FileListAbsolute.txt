@@ -1,0 +1,15 @@
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\bin\Debug\netstandard2.0\Stockinator.deps.json
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\bin\Debug\netstandard2.0\Stockinator.dll
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\bin\Debug\netstandard2.0\ref\Stockinator.dll
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\bin\Debug\netstandard2.0\Stockinator.pdb
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Stockinator.AssemblyInfoInputs.cache
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Stockinator.AssemblyInfo.cs
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Stockinator.csproj.CoreCompileInputs.cache
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\XamlC.stamp
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Stockinator.dll
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\ref\Stockinator.dll
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Stockinator.pdb
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Stockinator.csprojAssemblyReference.cache
+D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\obj\Debug\netstandard2.0\Controls\StockCell.xaml.g.cs
