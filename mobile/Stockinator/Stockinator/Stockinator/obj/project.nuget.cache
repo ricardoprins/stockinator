@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "JNg+cJBgnyte38xSQciaOFaBY/sRD41bnrea0ehxXaoB5xvnJ7W1h6L5OOmN4mj34XwblPqJoQMbIbNfAqToBQ==",
+  "dgSpecHash": "xuzfJkHya0TiMbpBeZAnHVBSc4025EK7gTtKz6Fk2L9A0ghzQLA0mIJbkNZtMQAAXCbXOqjLONVSJlAOEUm7uw==",
   "success": true,
-  "projectFilePath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj",
+  "projectFilePath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hap\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/jake/.nuget/packages/livexaml/2.1.73/livexaml.2.1.73.nupkg.sha512",
+    "/Users/jake/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/jake/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/jake/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "/Users/jake/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/jake/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/jake/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/jake/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

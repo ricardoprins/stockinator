@@ -113,6 +113,8 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Copy of Untitled.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -125,7 +127,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Stockinator\Stockinator.csproj">
-      <Project>{23DF95BE-DB88-44C6-B867-FA7F3E5D4FA5}</Project>
+      <Project>{AA3D28E3-288D-4E3B-85BF-3BA1ECA376C3}</Project>
       <Name>Stockinator</Name>
     </ProjectReference>
   </ItemGroup>
@@ -136,5 +138,8 @@
     <PackageReference Include="Xamarin.Forms">
       <Version>5.0.0.2012</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\Logo.imageset\" />
   </ItemGroup>
 </Project>

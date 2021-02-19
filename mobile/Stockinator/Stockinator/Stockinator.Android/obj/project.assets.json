@@ -2258,39 +2258,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hap\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/jake/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj",
+      "projectUniqueName": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/Stockinator.Android.csproj",
       "projectName": "Stockinator.Android",
-      "projectPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj",
-      "packagesPath": "C:\\Users\\hap\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\obj\\",
+      "projectPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/Stockinator.Android.csproj",
+      "packagesPath": "/Users/jake/.nuget/packages/",
+      "outputPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hap\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/jake/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj": {
-              "projectPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj"
+            "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj": {
+              "projectPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj"
             }
           }
         }
