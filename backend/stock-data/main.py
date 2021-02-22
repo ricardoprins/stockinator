@@ -3,6 +3,7 @@ import json
 
 import pandas as pd
 import yfinance as yf
+from yahoofinancials import YahooFinancials
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -84,3 +85,14 @@ async def get_data_options(ticker: str):
     options = options.to_json(orient="records")
 
     return options
+
+
+@app.get("/stock/futures-data/{ticker}")
+async def get_futures_data(ticker: str):
+    yahoo_financials_commodities = YahooFinancials(ticker)
+    daily_commodity_prices = yahoo_financials_commodities.get_historical_price_data(
+    '2008-09-15', '2018-09-15', 'daily')
+
+    futures_data = json.dumps(daily_commodity_prices, indent=4)
+
+    return futures_data
