@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "CWPgJ4UKWU6DqkdRw4HeL0NPLw6Joyz3VocQGKgAu+bBit8vdabhXvOwACbjyYFbMfjGceI+9UOXXAjJ6wB/ig==",
+  "dgSpecHash": "B304OqirJw2+nkZB6lp1RGPybLcXfDgB97MxIR3CJWEm0iwwpJ1svzBOOC8GmKVoUc7qhaFJ01eUKgFTlvcuPw==",
   "success": true,
-  "projectFilePath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.iOS\\Stockinator.iOS.csproj",
+  "projectFilePath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.iOS/Stockinator.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hap\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Users\\hap\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/jake/.nuget/packages/livexaml/2.1.73/livexaml.2.1.73.nupkg.sha512",
+    "/Users/jake/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "/Users/jake/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/jake/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/jake/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/jake/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

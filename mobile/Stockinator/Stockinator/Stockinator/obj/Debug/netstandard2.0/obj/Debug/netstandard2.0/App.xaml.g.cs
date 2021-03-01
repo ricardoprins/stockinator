@@ -13,7 +13,7 @@
 namespace Stockinator {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("obj\\Debug\\netstandard2.0\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("obj/Debug/netstandard2.0/App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

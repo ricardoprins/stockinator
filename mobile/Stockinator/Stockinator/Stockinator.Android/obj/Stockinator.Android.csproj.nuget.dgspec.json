@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj": {}
+    "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/Stockinator.Android.csproj": {}
   },
   "projects": {
-    "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj": {
+    "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/Stockinator.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj",
+        "projectUniqueName": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/Stockinator.Android.csproj",
         "projectName": "Stockinator.Android",
-        "projectPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj",
-        "packagesPath": "C:\\Users\\hap\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\obj\\",
+        "projectPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/Stockinator.Android.csproj",
+        "packagesPath": "/Users/jake/.nuget/packages/",
+        "outputPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hap\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/jake/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj": {
-                "projectPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj"
+              "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj": {
+                "projectPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj"
               }
             }
           }
@@ -58,28 +52,22 @@
         }
       }
     },
-    "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj": {
+    "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj",
+        "projectUniqueName": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj",
         "projectName": "Stockinator",
-        "projectPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\Stockinator.csproj",
-        "packagesPath": "C:\\Users\\hap\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator\\obj\\",
+        "projectPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/Stockinator.csproj",
+        "packagesPath": "/Users/jake/.nuget/packages/",
+        "outputPath": "/Users/jake/Documents/GitHub/stockinator/mobile/Stockinator/Stockinator/Stockinator/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hap\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/jake/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,7 +119,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

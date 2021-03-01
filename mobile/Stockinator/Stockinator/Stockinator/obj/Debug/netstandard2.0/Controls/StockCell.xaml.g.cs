@@ -13,7 +13,7 @@
 namespace Stockinator.Controls {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Controls\\StockCell.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Controls/StockCell.xaml")]
     public partial class StockCell : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
