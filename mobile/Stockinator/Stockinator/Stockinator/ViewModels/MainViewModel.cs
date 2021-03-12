@@ -13,10 +13,12 @@ namespace Stockinator.ViewModels
 
         public MainViewModel()
         {
-            Quotes = new ObservableCollection<StockInfo>();
-            Quotes.Add(new StockInfo() { Ticker = "MSFT", Price = "243.30" });
-            Quotes.Add(new StockInfo() { Ticker = "TSLA", Price = "730.76" });
-            Quotes.Add(new StockInfo() { Ticker = "SPCE", Price = "50.22" });
+            Quotes = new ObservableCollection<StockInfo>
+            {
+                new StockInfo() { Ticker = "MSFT", Price = "243.30" },
+                new StockInfo() { Ticker = "TSLA", Price = "730.76" },
+                new StockInfo() { Ticker = "SPCE", Price = "50.22" }
+            };
         }
     }
 }

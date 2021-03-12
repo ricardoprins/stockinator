@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2meNd2+r1c3AGy0U4MzRw4hyLzJqPlGKQa7bFIjxvW5F52iR61pFnaCMFM/Xca6kaqUsTezwTIe18hBOYgRhlw==",
+  "dgSpecHash": "TpEGWNBiuSIzicQGQr9gDlVoDzbLdvI2Mcpjp03Go0GTXYTjxMIu91CHAO1VjpA+J9T/Ytqz8ZXIoyflU3YoRA==",
   "success": true,
   "projectFilePath": "D:\\github\\stockinator\\mobile\\Stockinator\\Stockinator\\Stockinator.Android\\Stockinator.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hap\\.nuget\\packages\\livexaml\\2.1.73\\livexaml.2.1.73.nupkg.sha512",
+    "C:\\Users\\hap\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\hap\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\hap\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\hap\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",

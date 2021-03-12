@@ -19,14 +19,12 @@
                                              VerticalOptions="Center">
                 <Label 
                                         Text="{Binding Ticker}"
-                                        TextColor="White"
-                                        FontSize="20" />
+                                        Style="{StaticResource NameLabelStyle}" />
             </StackLayout>
             <Label 
                                     Grid.Column="2"
                                     VerticalOptions="Center"
-                                    FontSize="Large"
-                                    TextColor="White"
+                                    Style="{StaticResource StockLabelStyle}"
                                     Margin="0,0,20,0"
                                     Text="{Binding Price}" />
             <BoxView

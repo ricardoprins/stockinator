@@ -15,14 +15,14 @@
                              Spacing="0">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
-                            <controls:StockCell>
+                            <controls:StockCell HeightRequest="80">
                                 <controls:StockCell.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="StockCellRecognizer_Tapped" />
                                 </controls:StockCell.GestureRecognizers>
                             </controls:StockCell>
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
-                    
+
                 </StackLayout>
             </ScrollView>
 
@@ -34,69 +34,128 @@
             AbsoluteLayout.LayoutFlags="All"
             BackgroundColor="#CC000000"
             Opacity="0"
-            IsVisible="False"/>
-        <AbsoluteLayout.GestureRecognizers >
-            <TapGestureRecognizer Tapped="BackgroundTapRecognizer_Tapped" />
-        </AbsoluteLayout.GestureRecognizers>
+            IsVisible="False">
+            <AbsoluteLayout.GestureRecognizers >
+                <TapGestureRecognizer Tapped="BackgroundTapRecognizer_Tapped" />
+            </AbsoluteLayout.GestureRecognizers>
 
-        <Grid x:Name="DropDownContainer"
-              RowSpacing="0"
-              ColumnSpacing="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
+            <Grid x:Name="Front" IsVisible="True" AnchorX=".5" RowSpacing="0" ColumnSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="80" />
+                    </Grid.RowDefinitions>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
-            <controls:StockCell x:Name="FakeCell" Grid.ColumnSpan="2" />
-
-            <Grid x:Name="InfoDropDown"
-                  BackgroundColor="{StaticResource DropDownColor2}"
-                  HeightRequest="60"
-                  Grid.Row="1"
-                  AnchorY="0"
-                  IsVisible="false"
-                  Grid.Column="0"
-                  Grid.ColumnSpan="2">
-                <Label Text="Stock Info"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-            </Grid>
-            
-            <Grid x:Name="DeleteDropDown"
-                  BackgroundColor="{StaticResource DropDownColor1}"
-                  HeightRequest="60"
-                  Grid.Row="2"
-                  AnchorY="0"
-                  Grid.Column="0">
-                
-                <Label Text="Delete"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-            </Grid>
-
-            <Grid x:Name="EditDropDown"
-                  BackgroundColor="{StaticResource DropDownColor2}"
-                  HeightRequest="60"
-                  Grid.Row="2"
-                  AnchorY="0"
-                  Grid.Column="1">
-                
-                <Label Text="Edit"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-            </Grid>
+                    <controls:StockCell 
+                        x:Name="FakeCell" 
+                        HeightRequest="80" 
+                        Grid.ColumnSpan="2" />
 
 
-        </Grid>
+                    <Grid x:Name="InfoDropDown"
+                          BackgroundColor="{StaticResource DropDownColor2}"
+                          HeightRequest="60"
+                          Grid.Row="1"
+                          AnchorY="0"
+                          IsVisible="false"
+                          Grid.Column="0"
+                          Grid.ColumnSpan="2">
+                        <Label Text="Stock Info"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="White"/>
+                    </Grid>
+
+                    <Grid x:Name="DeleteDropDown"
+                          BackgroundColor="{StaticResource DropDownColor1}"
+                          HeightRequest="60"
+                          Grid.Row="2"
+                          AnchorY="0"
+                          Grid.Column="0">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="DeleteTapRecognizer_Tapped" />
+                        </Grid.GestureRecognizers>
+
+                        <Label Text="Delete"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="White"/>
+                    </Grid>
+
+                    <Grid x:Name="EditDropDown"
+                          BackgroundColor="{StaticResource DropDownColor2}"
+                          HeightRequest="60"
+                          Grid.Row="2"
+                          AnchorY="0"
+                          Grid.Column="1">
+
+                        <Label Text="Edit"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="White"/>
+                    </Grid>
+
+                </Grid>
+            <Grid x:Name="Back" IsVisible="False" AnchorX=".5" RowSpacing="0" ColumnSpacing="0">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="80" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+
+                    <Grid x:Name="ConfirmMessage" 
+                          Grid.ColumnSpan="2"
+                          BackgroundColor="{StaticResource CellBackgroundColor}"
+                          HeightRequest="80">
+
+                        <Label Text="Are you sure?" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+
+                    </Grid>
+
+                    <Grid x:Name="YesDropdown"
+                          BackgroundColor="{StaticResource DropDownColor1}"
+                          HeightRequest="60"
+                          Grid.Row="1"
+                          AnchorY="0"
+                          Grid.Column="0">
+
+                        <Label Text="Yes"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="White"/>
+                    </Grid>
+
+                    <Grid x:Name="NoDropdown"
+                          BackgroundColor="{StaticResource DropDownColor2}"
+                          HeightRequest="60"
+                          Grid.Row="1"
+                          AnchorY="0"
+                          Grid.Column="1">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="NoTapRecognizer_Tapped" />
+                        </Grid.GestureRecognizers>
+
+                        <Label Text="No"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               TextColor="White"/>
+                    </Grid>
+
+                </Grid>
+
+        </AbsoluteLayout>
 
     </AbsoluteLayout>
 

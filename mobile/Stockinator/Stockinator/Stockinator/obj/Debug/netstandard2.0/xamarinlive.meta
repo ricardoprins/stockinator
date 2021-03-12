@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XamlProjectMeta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Files>
     <XamlFileMeta>
-      <FilePath>d:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\App.xaml</FilePath>
-      <Hash>25-2B-74-58-83-05-33-23-46-0F-11-3A-8F-A8-51-E7</Hash>
+      <FilePath>D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\App.xaml</FilePath>
+      <Hash>CE-C1-66-81-2F-B2-D0-F9-2F-EF-95-98-E4-B0-EF-D9</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>d:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\Controls\StockCell.xaml</FilePath>
-      <Hash>F8-BC-46-DA-A6-82-8E-8C-DE-B0-28-A6-59-B4-A7-B2</Hash>
+      <FilePath>D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\Controls\StockCell.xaml</FilePath>
+      <Hash>FD-B6-F2-75-53-E7-A3-4F-7F-43-AA-F8-24-56-C0-96</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
-      <FilePath>d:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\MainPage.xaml</FilePath>
-      <Hash>BC-CE-17-D4-AF-30-83-A2-FA-24-8E-B8-21-24-3F-7D</Hash>
+      <FilePath>D:\github\stockinator\mobile\Stockinator\Stockinator\Stockinator\MainPage.xaml</FilePath>
+      <Hash>5C-83-A7-C7-68-A3-90-D6-C4-9D-15-FF-94-7C-55-F8</Hash>
       <Properties />
     </XamlFileMeta>
   </Files>
