@@ -31,14 +31,9 @@ Feel free to reach out for suggestions and contributions! If you want to talk to
 ## Discord server
 For easier interaction with all the developers involved in the project, [join us at our Discord server!](https://discord.gg/8qKxzHgP7C)
 
-## Open-source Programs 👾
-Winter of Code is an open-source program envisioned by DevScript that helps understand the paradigm of Open Source contribution. It aims to bring students into the world of open source development and see the power of unified problem solving in real time.
-
-<img src="https://devscript.tech/woc/img/WOC-logo.png" width="40%">
-
 ## Our Contributors 👩🏻‍🤝‍🧑🏼
 
-Thanks goes to these wonderful people ✨✨:
+Our thanks go to these wonderful people ✨✨:
 <table>
 	<tr>
 		<td align="center">
